@@ -17,7 +17,7 @@ function Trending() {
   return (
     <div>
       <div>
-        <Container>
+        <div>
           <Row >
             <Col>
               <h1 className='head-trend'>
@@ -27,11 +27,11 @@ function Trending() {
               </h1>
             </Col>
           </Row>
-        </Container>
+        </div>
       </div>
 
       <div className='kartu-category'>
-        <Container className="card-container">
+        <div className="card-container">
           <Card className='card-satu'>
             <Card.Body>
               <Card.Img variant="top" src={PizzaPapperoni} className="card--image--trends" />
@@ -144,12 +144,12 @@ function Trending() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </Container>
+        </div>
       </div>
       <div className='btn justify-content-center tombol-container'>
-        <Container>
+        <div>
               <button className='btn--peralihan tombol--shadow' style={{fontSize: "16px"}}>ALL Receipt</button>
-        </Container>
+        </div>
       </div>
   </div>
   )

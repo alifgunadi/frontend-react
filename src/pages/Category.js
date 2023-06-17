@@ -27,7 +27,7 @@ function Category() {
       </div>
 
       <div className='card-category'>
-        <Container className="card-container">
+        <div className="card-container">
           <Card className='card-one'>
             <Card.Body>
               <Card.Img variant="top" src={CupcakeImage} className="card--image" />
@@ -63,11 +63,11 @@ function Category() {
               <Card.Text className="card--text">11 Items</Card.Text>
             </Card.Body>
           </Card>
-        </Container>
+        </div>
       </div>
       <div className='btn-next-prev'>
-        <Container>
-          <Row className='justify-content-center'> {/* Add justify-content-center class to center the columns */}
+        <div>
+          <Row className='justify-content-center'>
             <Col xs={4} className='text-end'>
               <button className='next-prev prev-button'>{"<< "}PREV</button>
             </Col>
@@ -75,7 +75,7 @@ function Category() {
               <button className='next-prev next-button'>NEXT{" >>"}</button>
             </Col>
           </Row>
-        </Container>
+        </div>
       </div>
   </div>
   )

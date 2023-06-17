@@ -32,8 +32,8 @@
   border-radius: 10px;
   width: 1500px;
   height: 100px;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .card-container {
