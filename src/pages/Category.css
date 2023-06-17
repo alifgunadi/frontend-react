@@ -1,0 +1,149 @@
+.head-category {
+  text-align: left;
+  font-family: Rubik;
+  font-weight: bold;
+  position: absolute;
+  top: 760px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-size: 38px;
+  line-height: 50px;
+  color: #333333;
+}
+
+.receipt {
+  color: #8BAC3E;
+}
+
+.card {
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-category {
+  margin-top: 200px;
+  font-family: Rubik;
+  border: 0px;
+  border-radius: 10px;
+  width: 1500px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.card-one {
+  border: 0px;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  background: #F0FEEB;
+}
+
+.card-two {
+  border: 0px;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  background: #feebeb;
+}
+
+.card-three {
+  border: 0px;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  background: #EAEEFA;
+}
+
+.card-four {
+  border: 0px;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  background: #F9EEF3;
+}
+
+.card-five {
+  border: 0px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  background: #F3F7D9;
+}
+
+.card--image {
+  width: 30%;
+  height: auto;
+  margin-top: 25px;
+}
+
+.card--title {
+  font-family: Rubik;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.btn-next-prev {
+  font-family: Rubik;
+  margin-left: 560px;
+}
+
+.next-prev {
+  margin-top: 150px;
+  border: 10px;
+  border-radius: 50px;
+  background: #8BAC3E;
+  color: #FFFFFF;
+}
+
+.next-button {
+  height: 45px;
+  width: 130px;
+}
+
+.prev-button {
+  height: 45px;
+  width: 130px;
+}
+
+.next-prev {
+  transition: all 0.3s ease;
+}
+
+.next-prev:hover {
+  transform: scale(1.1);
+}
+
+.prev-button {
+  transition: all 0.3s ease;
+}
+
+.prev-button:hover {
+  transform: translateX(-10px);
+}
+
+.next-button {
+  transition: all 0.3s ease;
+}
+
+.next-button:hover {
+  transform: translateX(10px);
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    justify-content: center;
+  }
+}

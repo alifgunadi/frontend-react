@@ -1,0 +1,54 @@
+.brand--image {
+  margin-right: auto;
+}
+
+.nav-home-about {
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* .nav-home-about .nav-link {
+  margin-right: 0px;
+} */
+
+.navlink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #757575;
+}
+
+.navlink:last-child {
+  margin-right: 0;
+}
+
+.btn--signup {
+  margin-right: 1px;
+  background: #8BAC3E;
+  border: 0;
+  border-radius: 100px;
+  color: white;
+  width: 130px;
+  height: 42px;
+}
+
+.navlink--login {
+    margin-left: auto;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../../public/fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

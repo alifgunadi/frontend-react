@@ -1,0 +1,159 @@
+.head-trend {
+  text-align: left;
+  font-family: Rubik;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 80px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-size: 38px;
+  line-height: 50px;
+  color: #333333;
+}
+
+.receipt {
+  color: #8BAC3E;
+}
+
+.card {
+  top: 10px;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.kartu-category {
+  margin-top: 200px;
+  font-family: Rubik;
+  border: 0px;
+  border-radius: 10px;
+  width: 1500px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.card--image--trends {
+  width: 40%;
+  height: auto;
+  margin-top: 25px;
+}
+
+.card-satu {
+  border: 0px;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  background: #E6F3F5;
+}
+
+.card-dua {
+  border: 0px;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  background: #E6F3F5;
+}
+
+.card-tiga {
+  border: 0px;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  background: #EAEEFA;
+}
+
+.card-empat {
+  border: 0px;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  background: #F0FEEB;
+}
+
+.card-lima {
+  border: 0px;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  background: #F0FEEB;
+}
+
+.card-enam {
+  border: 0px;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  background: #F3F7D9;
+}
+
+.card-tujuh {
+  border: 0px;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  background: #F3F7D9;
+}
+
+.card-delapan {
+  border: 0px;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  background: #EAEEFA;
+}
+
+.card--image {
+  width: 30%;
+  height: auto;
+  margin-top: 25px;
+}
+
+.card--title {
+  font-family: Rubik;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.btn-all-receipt {
+  width: 500px;
+  margin-top: 450px;
+}
+
+.star {
+  margin-left: 4px;
+}
+
+.tombol-container {
+  margin-top: 650px;
+}
+
+.tombol-container button {
+  transition: all 0.3s ease;
+}
+
+.tombol-container button:hover {
+  transform: scale(1.1);
+}
+
+.btn--peralihan {
+  margin-right: 1px;
+  background: #8BAC3E;
+  border: 0;
+  border-radius: 100px;
+  color: white;
+  width: 130px;
+  height: 42px;
+}
