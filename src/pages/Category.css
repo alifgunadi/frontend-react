@@ -31,16 +31,17 @@
   border: 0px;
   border-radius: 10px;
   width: 1500px;
-  height: 100px;
+  /* height: 100px; */
   /* display: flex;
   justify-content: center; */
 }
 
 .card-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-start;
   gap: 20px;
+  width: 300vw;
 }
 
 .card-one {
@@ -142,8 +143,20 @@
   transform: translateX(10px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .card-container {
     justify-content: center;
+  }
+  .head-category {
+    margin-top: 100px;
+  }
+  .card-category {
+    width: 100vw;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    margin-left: -20px;
+  }
+  .btn-next-prev {
+    display: none;
   }
 }

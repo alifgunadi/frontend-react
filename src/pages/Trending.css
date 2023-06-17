@@ -38,7 +38,7 @@
   text-align: left;
 }
 
-.card-container {
+.kartu-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -156,4 +156,10 @@
   color: white;
   width: 130px;
   height: 42px;
+}
+
+@media (max-width: 576px) {
+  .head-trend{
+    margin-top: 10px;
+  }
 }

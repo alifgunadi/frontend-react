@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row, Card } from 'react-bootstrap';
+import { Col, Row, Card } from 'react-bootstrap';
 import './Category.css';
 // import Pagination from './Pagination';
 import CupcakeImage from '../images/cupcake.png';
@@ -13,7 +13,7 @@ function Category() {
   return (
     <div>
       <div>
-        <Container>
+        <div>
           <Row >
             <Col>
               <h1 className='head-category'>
@@ -23,7 +23,7 @@ function Category() {
               </h1>
             </Col>
           </Row>
-        </Container>
+        </div>
       </div>
 
       <div className='card-category'>

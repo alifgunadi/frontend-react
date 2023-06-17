@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row, Card } from 'react-bootstrap';
+import { Col, Row, Card } from 'react-bootstrap';
 import './Trending.css';
 import Stars from '../images/Vector.png';
 import EmptyStars from '../images/Vector kosong.png';
@@ -31,7 +31,7 @@ function Trending() {
       </div>
 
       <div className='kartu-category'>
-        <div className="card-container">
+        <div className="kartu-container">
           <Card className='card-satu'>
             <Card.Body>
               <Card.Img variant="top" src={PizzaPapperoni} className="card--image--trends" />
